@@ -1,0 +1,57 @@
+{
+  "hero": {
+    "eyebrow": "Rivington Marx Interiors",
+    "title": "Luxury interior design.",
+    "accent": "Intentionally yours.",
+    "location": [
+      "Denver based.",
+      "Projects nationwide."
+    ],
+    "ctaLabel": "Explore our portfolio",
+    "ctaHref": "/portfolio/",
+    "scrollLabel": "Explore the studio",
+    "sourceUrl": "https://rivingtonmarx.com/",
+    "editorialNote": "Intentionally yours is proposed editorial copy, informed by the source emphasis on bespoke, personal design; it is not a source quotation.",
+    "image": {
+      "src": "/images/341f80d4ffac.webp",
+      "alt": "Luxurious living room with classic furniture and gold accents.",
+      "sourceUrl": "https://rivingtonmarx.com/wp-content/uploads/2026/01/1-png.png"
+    }
+  },
+  "introduction": {
+    "eyebrow": "Design done differently",
+    "title": "We believe a home should do more than impress.",
+    "accent": "It should reveal something true.",
+    "ctaLabel": "Meet the studio",
+    "ctaHref": "/about/",
+    "sourceUrl": "https://rivingtonmarx.com/"
+  },
+  "work": {
+    "eyebrow": "A selection of our work",
+    "title": "Distinctly personal.",
+    "accent": "Thoughtfully composed.",
+    "ctaLabel": "All projects",
+    "ctaHref": "/portfolio/",
+    "sourceUrl": "https://rivingtonmarx.com/projects/",
+    "editorialNote": "Proposed editorial headings for the curated project collection."
+  },
+  "services": {
+    "eyebrow": "From vision to detail",
+    "title": "The art of",
+    "accent": "living well.",
+    "description": "Interior architecture and design, considered as a whole.",
+    "ctaLabel": "Discover our approach",
+    "ctaHref": "/services/",
+    "sourceUrl": "https://rivingtonmarx.com/services/",
+    "editorialNote": "Proposed editorial headings summarizing the source integrated interior design, architectural planning and construction services."
+  },
+  "philosophy": {
+    "eyebrow": "Our point of view",
+    "title": "Considered. Enduring.",
+    "accent": "Quietly confident.",
+    "description": "We do not impose a signature style or recycle concepts. Instead, we translate personal narratives, architecture, and long-term use into spaces that feel considered, enduring, and quietly confident.",
+    "ctaLabel": "Inside Rivington Marx",
+    "ctaHref": "/about/",
+    "sourceUrl": "https://rivingtonmarx.com/"
+  }
+}

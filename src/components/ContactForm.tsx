@@ -1,0 +1,6 @@
+'use client';
+import { useState } from 'react';
+export default function ContactForm() {
+  const [submitted, setSubmitted] = useState(false);
+  return <form className="contact-form" onSubmit={event => { event.preventDefault(); setSubmitted(true); }}><p className="form-note">Preview form — submissions are not sent. Please use the email or phone number to contact the studio.</p><div className="form-grid"><label>Name<input name="name" autoComplete="name" required/></label><label>Email address<input name="email" type="email" autoComplete="email" required/></label></div><label>Project address<input name="address" autoComplete="street-address"/></label><label>How did you hear about us?<select name="referral" required defaultValue=""><option value="" disabled>Select one</option>{['Referral','Instagram','Pinterest','Google','Publication','ChatGPT or other AI','Other'].map(value => <option key={value}>{value}</option>)}</select></label><label>Tell us about your project<textarea name="message" rows={4} required/></label><button className="solid-button" type="submit">Preview inquiry <span>↗</span></button>{submitted && <p role="status" className="form-success">Your preview is complete. Nothing has been sent or saved. Email hello@rivingtonmarx.com to begin a conversation.</p>}</form>;
+}
