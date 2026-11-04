@@ -1,0 +1,8 @@
+'use client';
+import { useState } from 'react';
+import Link from 'next/link';
+import type { ContentPage } from '@/lib/content/types';
+export default function HomeHero({ projects, title, location }: { projects: ContentPage[]; title: string; location: string }) {
+  const [index, setIndex] = useState(0); const current = projects[index];
+  return <section className="editorial-hero home-margin" aria-label="Featured interiors"><div className="hero-prelude"><p className="eyebrow">Interior architecture<br/>& design</p><a href="#work" className="eyebrow">Explore <span aria-hidden="true">↓</span></a></div><div className="editorial-hero-frame"><Link href={'/'+current.slug+'/'} aria-label={'Explore '+current.title}>{projects.map((project,i) => <img key={project.slug} className={i === index ? 'slide current' : 'slide'} src={project.images[0].src} alt={i === index ? project.images[0].alt : ''} aria-hidden={i !== index} width="1600" height="1100" fetchPriority={i===0?'high':undefined} loading={i===0?'eager':'lazy'}/>)}<span className="hero-step">Step inside ↗</span></Link><div className="editorial-hero-title"><h1>{title.split(' ').slice(0,2).join(' ')}<br/><em>{title.split(' ').slice(2).join(' ')}</em></h1></div></div><div className="editorial-caption"><span className="caption-project" aria-live="polite">{current.title}</span><p className="eyebrow">{location}</p><div className="slide-controls"><button aria-label="Previous featured image" onClick={()=>setIndex((index+projects.length-1)%projects.length)}>←</button><span className="eyebrow" aria-live="polite">0{index+1} — 0{projects.length}</span><button aria-label="Next featured image" onClick={()=>setIndex((index+1)%projects.length)}>→</button></div></div></section>;
+}

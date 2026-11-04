@@ -1,3 +1,4 @@
+import homepage from '@/content/homepage.json';
 import local from '@/content/site.json';
 import homeDesign from '@/content/home-design.json';
 import type { SiteContent, ContentPage } from './types';
@@ -9,3 +10,5 @@ export async function getHomeDesign() { return homeDesign; }
 export async function getPages(kind?: ContentPage['kind']) { const { pages } = await getSiteContent(); return kind ? pages.filter(page => page.kind === kind) : pages; }
 export async function getPage(slug: string) { return (await getPages()).find(page => page.slug.replace(/^\/+|\/+$/g, '') === slug); }
 export function pageHref(page: ContentPage) { return '/' + page.slug.replace(/^\/+|\/+$/g, '') + '/'; }
+
+export async function getHomepage() { return homepage; }

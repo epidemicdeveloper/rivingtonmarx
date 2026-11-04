@@ -1,0 +1,58 @@
+{
+  "sourceUrl": "https://rivingtonmarx.com/",
+  "logo": {
+    "src": "/images/original-logo.png",
+    "sourceUrl": "https://rivingtonmarx.com/wp-content/uploads/2025/01/RMI-Logo-K-Horizontal-600x115.png"
+  },
+  "title": "Luxury Interior Design.",
+  "location": "Denver Based. Projects Nationwide.",
+  "introduction": "Rivington Marx Interiors is a nationally recognized boutique interior architecture and design firm based in Denver, Colorado. Our skilled team of award-winning professionals provides unmatched residential design services locally and nationwide. Whether starting from scratch or looking to refresh a beloved space, Rivington Marx Interiors can transform your home and decor into the space of your dreams.",
+  "belief": "We believe a home should do more than impress. It should reveal something true.",
+  "principles": [
+    {
+      "title": "Bespoke Design Intelligence",
+      "paragraphs": [
+        "Too often, interior design is reduced to surface decisions and borrowed aesthetics. Spaces are styled for approval rather than lived experience, shaped by trends instead of intention. We reject that approach entirely.",
+        "Design, to us, is an act of intention. Every environment we create is informed by how life actually unfolds: quiet mornings, evolving rituals, moments of gathering and retreat. Every line, material, and proportion is chosen with purpose. Nothing exists to serve aesthetic performance alone.",
+        "Our work is deeply bespoke and rooted in clarity. We do not impose a signature style or recycle concepts. Instead, we translate personal narratives, architecture, and long-term use into spaces that feel considered, enduring, and quietly confident."
+      ]
+    },
+    {
+      "title": "Specialized Workflow Systems",
+      "paragraphs": [
+        "Exceptional design requires disciplined execution. From the outset, we map out what matters, what comes next, and where teams can work more efficiently.",
+        "The result is a smoother creative process with fewer hold-ups and less unnecessary spending.",
+        "This system allows us to:",
+        "Reduce unnecessary revisions",
+        "Control costs without compromising quality",
+        "Streamline approvals and selections",
+        "Maintain momentum throughout the project",
+        "Efficiency, for us, is not a shortcut. It is a form of respect. For the client, the design, and the process itself."
+      ]
+    },
+    {
+      "title": "Integrated Design + Construction",
+      "paragraphs": [
+        "Fragmentation is the enemy of great outcomes. We match vision with execution from the start by combining design and construction.",
+        "Our teams bring different areas of expertise to the same table. This helps protect the original design, catch issues early, and carry the vision through construction.",
+        "This integrated approach creates:",
+        "Fewer handoffs and clearer accountability",
+        "Reduced redundancies and delays",
+        "Greater budget transparency",
+        "A more seamless client experience",
+        "Design and construction are not separate conversations. We ensure they speak the same language."
+      ]
+    }
+  ],
+  "conclusion": "Together, these principles result in a more mindful way of working. One that values innovation, appreciates the process, and creates long-lasting environments.",
+  "testimonial": {
+    "quote": "Rather than go with a traditional arrangement in one of the rooms, as we wanted, Troy influenced our decision and took us out of our comfort zone. We are so grateful that he did. To this day, it is the most complimented and appreciated part of the design.",
+    "author": "Matt & Lance, Denver, CO"
+  },
+  "featuredSlugs": [
+    "project/parlors-and-power",
+    "project/tailored-in-stone",
+    "project/the-pink-pony",
+    "project/adventures-in-moodsetting"
+  ]
+}
