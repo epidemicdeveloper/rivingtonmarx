@@ -8,6 +8,10 @@ createServer(async (request, response) => {
     const pathname = decodeURIComponent(new URL(request.url, 'http://localhost').pathname);
     let file = resolve(root, '.' + pathname);
     if (file !== root && !file.startsWith(root + sep)) { response.writeHead(403).end(); return; }
+    // Next's Windows static export stores the final segment in a directory.
+    if (!(await stat(file).catch(() => null)) && file.endsWith('.__PAGE__.txt')) {
+      file = file.slice(0, -'.__PAGE__.txt'.length) + sep + '__PAGE__.txt';
+    }
     if ((await stat(file)).isDirectory()) file = resolve(file, 'index.html');
     const body = await readFile(file);
     response.writeHead(200, { 'Content-Type': types[extname(file)] || 'application/octet-stream', 'X-Robots-Tag': 'noindex, nofollow' });
